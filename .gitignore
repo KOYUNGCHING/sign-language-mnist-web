@@ -1,0 +1,21 @@
+cat > .gitignore << 'EOF'
+.venv/
+venv/
+env/
+
+__pycache__/
+*.pyc
+
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+
+static/uploads/
+
+data/asl_alphabet_train/
+data/asl_alphabet_train_mvp/
+
+outputs/models/*.pkl
+outputs/models/*.keras
+!outputs/models/*.json
+EOF
