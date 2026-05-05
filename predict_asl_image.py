@@ -21,7 +21,7 @@ MODEL_PATH = Path("outputs/models/cnn_mvp_model.keras")
 MAPPING_PATH = Path("outputs/models/cnn_mvp_label_mapping.pkl")
 
 # 想測哪個字母就改這裡
-TEST_LETTER = "C"
+TEST_LETTER = "A"
 
 IMAGE_PATH = Path(f"data/asl_alphabet_test/{TEST_LETTER}_test.jpg")
 
